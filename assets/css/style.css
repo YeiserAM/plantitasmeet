@@ -310,20 +310,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*.........................................................*/
 
-.portfolio-details .portfolio-description .mapa iframe{
-  border-radius: 20px;
-  width: 415px;
-  height: 350px;
-  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.08);
-}
-@media (max-width: 700px) {
-  .portfolio-details .portfolio-description .mapa iframe{
-    border-radius: 20px;
-    width: 350px;
-  }
-}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -688,6 +675,7 @@ section {
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
+  border-radius: 20px;
 }
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
@@ -714,6 +702,21 @@ section {
 }
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+/*......................MAPA...................................*/
+
+.portfolio-details .portfolio-description .mapa iframe{
+  border-radius: 20px;
+  width: 415px;
+  height: 350px;
+  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.08);
+}
+@media (max-width: 700px) {
+  .portfolio-details .portfolio-description .mapa iframe{
+    border-radius: 20px;
+    width: 300px;
+  }
 }
 
 /*--------------------------------------------------------------
