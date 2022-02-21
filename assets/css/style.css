@@ -318,8 +318,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 350px;
   box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.08);
 }
-
-
+@media (max-width: 700px) {
+  .portfolio-details .portfolio-description .mapa iframe{
+    border-radius: 20px;
+    width: 350px;
+  }
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
